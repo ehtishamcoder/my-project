@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* flex-wrap: wrap; */
+}
+.hero{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image2.jpg);
+    background-position:center;
+    /* background-position: center; */
+}
+.hero nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero nav h1{
+    margin-left: 30px;
+    font-size: 27px;
+    color: #fff;
+    text-shadow: 0 0 3px  rgb(23, 203, 203);
+}
+.hero nav ul{
+    margin-right: 10px;
+    display: flex;
+    list-style: none;
+}
+.active li a::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f33446;
+    display: block;
+    margin: auto;
+}
+.hero nav ul li{
+    margin: 30px;
+}
+.hero nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.hero nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f33446;
+    display: block;
+    margin: auto;
+}
+.hero nav ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.header-contant{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50% -50%);
+    text-align: center;
+}
+.header-contant h1{
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.img-p{
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.mg-p{
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    /* align-items: center; */
+}
+.mg-p img{
+    width: 633px;
+    height: 333px;
+    margin-left:50px;
+}
+.pra{
+    display: inline;
+    width: 433px;
+}
+.pra h2{
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+.pra p{
+    margin-bottom: 25px;
+}
+.btn{
+    text-decoration: none;
+    color: #f33446;
+    border: 1px solid;
+    padding: 10px;
+}
+.btn:hover{
+    background: #f334;
+    transition: 0.5s;
+}
+.about{
+    width: 100%;
+    text-align: center;
+    /* margin-left: 120px; */
+}
+.about h3{
+    margin-left: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.about p{
+    color: #777;
+    margin-left: 40px;
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+.icons
+{
+    margin-left: 35px;
+    font-size: 30px;
+    color: #f33446;
+}
+.icons i{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
